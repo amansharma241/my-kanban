@@ -8,23 +8,16 @@
 - Allow users to edit and delete tasks.
 - Implement a search feature to filter tasks by title or description.
 
-
-
 ### Technology Stack
 
 - **React**: Chosen for its component-based architecture, facilitating efficient UI development.
 - **Redux**: Used for state management, ensuring a predictable state container and easy access to task data.
 - **react-beautiful-dnd**: Integrated for seamless drag-and-drop functionality, enhancing the user experience.
-- **Tailwind CSS**: Utilized for styling components with utility classes, enabling rapid design and responsiveness.
-
-### State Management
-
-- **React Hooks**: Employed for managing local component state (e.g., task details, search term).
+- **Tailwind CSS**: Utilized for styling components with utility classes.
 
 ### Styling Approach
 
 - **Tailwind CSS**: Leveraged for consistent styling across components, ensuring a modern and responsive design.
-- **Custom CSS**: Applied where necessary for specific UI elements needing unique styles.
 
 ### Data Handling
 
@@ -42,7 +35,7 @@
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/username/kanban-board.git
+git clone https://github.com/amansharma241/kanban-board.git
 cd kanban-board
 ```
 
@@ -57,13 +50,6 @@ npm install
 ```bash
 npm start
 ```
-
-## Usage
-
-1. Open the application in your browser at [http://localhost:3000](http://localhost:3000).
-2. Create tasks by filling out the form and clicking "Add Task."
-3. Drag and drop tasks to reorder them within the same column or move them to different columns.
-4. Use the search bar to filter tasks by title or description.
 
 ```
 
